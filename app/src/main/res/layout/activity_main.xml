@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <hu.stephon.mylibrary.ObliqueCutImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start"
+        app:diretion="rightTop"
+        android:src="@drawable/image_1"
+        android:scaleType="centerCrop"
+        app:extent="40dp"/>
+    <hu.stephon.mylibrary.ObliqueCutImageView
+        android:layout_width="150dp"
+        android:layout_marginStart="115dp"
+        android:layout_height="100dp"
+        android:layout_gravity="end"
+        app:diretion="leftBottom"
+        android:src="@drawable/image_2"
+        android:scaleType="centerCrop"
+        app:extent="40dp"/>
+    <hu.stephon.mylibrary.ObliqueCutImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="105dp"
+        android:layout_gravity="start"
+        app:diretion="rightBottom"
+        android:src="@drawable/image_2"
+        android:scaleType="centerCrop"
+        app:extent="40dp"/>
+    <hu.stephon.mylibrary.ObliqueCutImageView
+        android:layout_width="150dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginStart="115dp"
+        android:layout_height="100dp"
+        android:layout_gravity="end"
+        app:diretion="leftTop"
+        android:src="@drawable/image_3"
+        android:scaleType="centerCrop"
+        app:extent="40dp"/>
+
+    <hu.stephon.mylibrary.ObliqueCutImageView
+        android:layout_width="100dp"
+        app:orientation="horizantal"
+        android:layout_marginTop="210dp"
+        android:layout_height="100dp"
+        app:diretion="rightBottom"
+        android:src="@drawable/image_1"
+        android:scaleType="centerCrop"
+        app:extent="40dp"/>
+    <hu.stephon.mylibrary.ObliqueCutImageView
+        android:layout_width="100dp"
+        app:orientation="horizantal"
+        android:layout_marginTop="275dp"
+        android:layout_height="100dp"
+        app:diretion="leftTop"
+        android:src="@drawable/image_3"
+        android:scaleType="centerCrop"
+        app:extent="40dp"/>
+
+    <hu.stephon.mylibrary.ObliqueCutImageView
+        android:layout_width="100dp"
+        app:orientation="horizantal"
+        android:layout_marginTop="210dp"
+        android:layout_marginStart="105dp"
+        android:layout_height="100dp"
+        app:diretion="leftBottom"
+        android:src="@drawable/image_2"
+        android:scaleType="centerCrop"
+        app:extent="40dp"/>
+    <hu.stephon.mylibrary.ObliqueCutImageView
+        android:layout_width="100dp"
+        app:orientation="horizantal"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="275dp"
+        android:layout_height="100dp"
+        app:diretion="rightTop"
+        android:src="@drawable/image_1"
+        android:scaleType="centerCrop"
+        app:extent="40dp"/>
+
+</FrameLayout>
